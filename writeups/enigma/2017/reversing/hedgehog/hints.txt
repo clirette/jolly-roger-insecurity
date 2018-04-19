@@ -1,0 +1,3 @@
+To run this, /proc/sys/kernel/yama/ptrace_scope must be 0
+
+Combine ideas from previous problems...

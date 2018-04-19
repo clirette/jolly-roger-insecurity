@@ -1,0 +1,70 @@
+{
+    "teams": [
+        {
+            "name": "AdminPresident",
+            "active": true,
+            "admin": true,
+            "protected": false,
+            "visible": false,
+            "password_hash": "$2y$12$1aZZZGnYrDLaezc3bTZhje7XryqtA9kvgW5chNpthX.LtcFestenK",
+            "points": 85,
+            "logo": "chess-rook",
+            "data": {}
+        },
+        {
+            "name": "#notmyteam",
+            "active": true,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$tjFfu027QYPhOEtLxhNtl.rWIZjXXYzauQ6MnYz12uq3VIyEvIHcm",
+            "points": 85,
+            "logo": "face-toast",
+            "data": {}
+        },
+        {
+            "name": "#grabembytheflag",
+            "active": true,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$gQ9oo1iKNkgnWPIAaFGrB.jkXSVtWKLKCgKjymCgPlTLhSOvIU2JC",
+            "points": 60,
+            "logo": "tetris-t",
+            "data": {}
+        },
+        {
+            "name": "admin",
+            "active": true,
+            "admin": true,
+            "protected": true,
+            "visible": false,
+            "password_hash": "$2y$12$KfBXtRpK9eAcEob8dRyVC.lgGo5oUoek.kP9wAXQxkVAPRdCdYXjK",
+            "points": 0,
+            "logo": "admin",
+            "data": {}
+        },
+        {
+            "name": "capt abernathy",
+            "active": true,
+            "admin": true,
+            "protected": false,
+            "visible": false,
+            "password_hash": "$2y$12$3FaMRi6I9qs96Oa8VDLNnuUfkrtNe6fFss3kh.5cF1sqfDcY0.VnO",
+            "points": 0,
+            "logo": "alien-3",
+            "data": {}
+        },
+        {
+            "name": "Team tempest",
+            "active": true,
+            "admin": true,
+            "protected": false,
+            "visible": false,
+            "password_hash": "$2y$12$cfUXMotvhiPoLcseVo55n.or7zQK\/fAdTclow5wz9ASjBCmCoySp.",
+            "points": 0,
+            "logo": "custom-1487280557-252a2d499b30fe626a127e08e46bf213.png",
+            "data": {}
+        }
+    ]
+}

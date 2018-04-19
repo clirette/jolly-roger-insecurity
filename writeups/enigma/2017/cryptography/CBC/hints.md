@@ -1,0 +1,1 @@
+[This page](http://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Cipher-block_chaining_.28CBC.29) explains how CBC works. Then look for a crypto library that implements AES (and even CBC) in your favorite language.

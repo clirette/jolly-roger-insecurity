@@ -1,0 +1,5 @@
+Linear sweep-disassembly fails due to misalignment
+
+Certain instructions are equivalent to NOP
+
+Use a hexeditor or sed to NOP out irrelevant instructions

@@ -1,0 +1,4 @@
+Conventional wisdom has it that undeleting files from an ext3 filesystem is impossible... Conventional wisdom is wrong, in the case of the filesystem at /problems/86b02e84a68af2e34a522672e5c6ff60 on the shell server. Also available for download at undelete.img
+
+Points: 100
+[Comment]: <> Ignore any references for download--file is available here.

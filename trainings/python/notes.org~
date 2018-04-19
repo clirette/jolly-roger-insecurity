@@ -1,0 +1,36 @@
+* Python
+** Features
+   * Completely dynamically typed--no variable pre-declaration necessary:
+     * myString = "blah"
+       * Completely valid assignment, even if myString not previously accessed
+     * Can do type checking
+   * Line comments: # (instead of //)
+   * Block comments: Just use a # per line
+     * Can use '''
+               Comments go here
+               and here
+               '''
+       But the triple-quote formatting is used for module, function, or class
+       documentation--known as a docstring. However, if a docstring is not the
+       first statement in a module, function, or class; it will be ignored and
+       effectively a comment
+   * End of a statement?
+     * Just hit enter. No semicolons here!
+   * What about brackets?
+     * No brackets either. For scoping in if or while statements, indentation is
+       used. Indentation in your code MUST BE CONSISTENT THROUGHOUT THE ENTIRE
+       DOCUMENT, or you'll get errors. So pick your tabs, two spaces, four
+       spaces, etc., and stick to that. If you occasionally switch between
+       editors, make sure that your indentation is consistent between the two or
+       you'll have a fun time debugging.
+
+               
+
+* My CTF usage of Python
+  * Primarily use Python for exploitation
+    * Can easily write exploits:
+      * overwrittenAddress = "\xDD\xCC\xBB\xAA"
+      * print "A"*256 + overwrittenAddress
+    * OR:
+      * import struct
+      * overwrittenAddress = struct.pack("<

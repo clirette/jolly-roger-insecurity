@@ -1,0 +1,11 @@
+Crypto is cool! Decrypt the secret message encrypted using cipher-block chaining (CBC) with the following parameters:
+
+Secret message: e666dc11cc26eb534fdb91babb9ab3a39879bee801fa1267f39a29f19f75c4a9 (hex encoded)
+
+Block cipher encryption: AES
+
+Initialization vector: 088ad9f9c24d8be56fff00380b0bd965 (hex encoded)
+
+Key: ea2759f7f6c31713b00370dbab6482db (hex encoded)
+
+Points: 40

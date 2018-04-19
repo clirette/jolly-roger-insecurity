@@ -1,0 +1,40 @@
+{
+    "categories": [
+        {
+            "category": "Binary Exploitation",
+            "protected": false
+        },
+        {
+            "category": "Coding",
+            "protected": false
+        },
+        {
+            "category": "Cryptography",
+            "protected": false
+        },
+        {
+            "category": "Forensics",
+            "protected": false
+        },
+        {
+            "category": "Misc",
+            "protected": false
+        },
+        {
+            "category": "None",
+            "protected": true
+        },
+        {
+            "category": "Quiz",
+            "protected": true
+        },
+        {
+            "category": "Reverse Engineering",
+            "protected": false
+        },
+        {
+            "category": "Web Exploitation",
+            "protected": false
+        }
+    ]
+}

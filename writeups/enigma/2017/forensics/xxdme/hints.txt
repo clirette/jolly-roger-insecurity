@@ -1,0 +1,3 @@
+xxd, hexedit, and bvi are all reasonable tools to try.
+
+Confused? Perhaps Google knows.

@@ -1,0 +1,9 @@
+#+LATEX_HEADER: \usepackage[margin=1in]{geometry}
+#+TITLE: An Introduction to Reverse Engineering with IDA
+#+AUTHOR: Jolly Roger Insecurity
+#+DATE:
+* Introduction
+  IDA and IDA Pro are disassemblers that will make your life much easier when
+  it comes to disassembling executables as well as understanding the underlying
+  code. IDA, short for /Interactive DisAssembler/, allows a reverse engineer to
+  not only see disassembled code, but to modify it in such a way to make the

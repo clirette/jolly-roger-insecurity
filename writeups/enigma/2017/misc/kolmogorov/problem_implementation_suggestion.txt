@@ -1,0 +1,3 @@
+What follows is a sample request sent to the client. It is randomized, but seemed to always expect between 1000 and 2000 characters for the first character and just 1 for the second.
+
+"Give me a string of 1385 'a's followed by a single 'y', and I will give you the flag."

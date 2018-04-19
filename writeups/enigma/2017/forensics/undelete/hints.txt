@@ -1,0 +1,4 @@
+How do ext2 and ext3 differ?
+http://www.sans.org/reading-room/whitepapers/forensics/advantage-ext3-journaling-file-system-forensic-investigation-2011
+Data journaling is turned on, so you can find copies of the key both in the journal and in the block that contained the keyfile before it was deleted.
+The key's deletion was the last operation that happened on this filesystem.

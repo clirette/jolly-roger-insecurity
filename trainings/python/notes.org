@@ -1,0 +1,74 @@
+* Python
+** Features
+   * Completely dynamically typed--no variable pre-declaration necessary:
+     * myString = "blah"
+       * Completely valid assignment, even if myString not previously accessed
+     * Can do type checking if required in particular cases:
+       * isinstance(blah,str) tells you whether blah is a string (so, of type
+         str) or an instance of a subclass of str
+
+   * Line comments: # (instead of //)
+   * Block comments: Just use a # per line
+     * Can use '''
+               Comments go here
+               and here
+               '''
+       But the triple-quote formatting is used for module, function, or class
+       documentation--known as a docstring. However, if a docstring is not the
+       first statement in a module, function, or class; it will be ignored and
+       effectively a comment
+   * End of a statement?
+     * Just hit enter. No semicolons here!
+   * What about brackets?
+     * No brackets either. For scoping in if or while statements, indentation is
+       used. Indentation in your code MUST BE CONSISTENT THROUGHOUT THE ENTIRE
+       DOCUMENT, or you'll get errors. So pick your tabs, two spaces, four
+       spaces, etc., and stick to that. If you occasionally switch between
+       editors, make sure that your indentation is consistent between the two or
+       you'll have a fun time debugging.
+     * Example:
+     * while (i < 16):
+           do something
+       print "While loop done!\n"
+   * String literals:
+     * Use single quotes or double quotes--both options are used to denote
+       string literals with no semantic difference
+     * print "This prints a string literal\n"
+     * print 'This also prints a string literal\n'
+   * About Python's print statement:
+     * Python 2.7.X print is not quite like a normal function; i.e., you don't
+       need to enclose the argument in parentheses. In 3.X, you must treat print
+       as a normal function, using parentheses around the argument:
+       * print("You must use this format to print in Python 3.X.\n")
+   * Python container object access
+     * Can iterate through containers like this:
+       * for i in container:
+	     print i.whatever
+     * No need for size/length checks of container, so quick and easy way to
+       operate
+   * Memory management:
+     * Generally none
+     * All numbers are bignums, that is, they can be as large as your memory
+       allows
+       * No integer overflows!
+     * If you want a variable to hold a strictly sized integer, Python's
+       =struct= API can handle what you want such as chars, shorts, ints, longs,
+       etc., signed or unsigned. It can also help you encode in a particular
+       endianness--useful for exploitation!
+     * Could also encode little endian addresses (or integers, if you really
+       wanted) in strings such as this: "\x67\x45\x23\x01"--if you were to print
+       this and redirect it to a file, it would save a precisely four byte file
+
+
+
+
+               
+
+* My CTF usage of Python
+  * Primarily use Python for exploitation
+    * Can easily write exploits:
+      * overwrittenAddress = "\xDD\xCC\xBB\xAA"
+      * print "A"*256 + overwrittenAddress
+    * OR:
+      * import struct
+      * overwrittenAddress = struct.pack("<

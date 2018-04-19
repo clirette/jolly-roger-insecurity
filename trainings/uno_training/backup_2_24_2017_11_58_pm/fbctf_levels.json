@@ -1,0 +1,537 @@
+{
+    "levels": [
+        {
+            "type": "flag",
+            "title": "the stuff",
+            "active": true,
+            "description": "Can you believe Ryan uses Bing?",
+            "entity_iso_code": "CG",
+            "category": "Forensics",
+            "points": 50,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "PCTF{LOOK_MA_NO_SSL}",
+            "hint": "",
+            "penalty": 0,
+            "links": [],
+            "attachments": [
+                {
+                    "filename": "\/data\/attachments\/the_stuff_af2195a04a110e38402998ec5da091e2.tar.bz2",
+                    "type": "application\/x-bzip2"
+                }
+            ]
+        },
+        {
+            "type": "flag",
+            "title": "xxdme",
+            "active": true,
+            "description": "This cat has the key, but seems unwilling to share it with you.",
+            "entity_iso_code": "MM",
+            "category": "Forensics",
+            "points": 25,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "UNO{c4n_1_h4X_t3h_61b50n?}",
+            "hint": "xxd, hexedit, and bvi are all reasonable tools to try. Confused? Perhaps Google knows.",
+            "penalty": 0,
+            "links": [],
+            "attachments": [
+                {
+                    "filename": "\/data\/attachments\/xxdme_7131613715886319e93a28ef7a8a242a.jpg",
+                    "type": "image\/jpeg"
+                }
+            ]
+        },
+        {
+            "type": "flag",
+            "title": "Here Goes!",
+            "active": true,
+            "description": "Have you guys every watched Gravity Falls? It's a great show with tons of cryptography sprinkled throughout. I got this odd photo in the mail from Uncle Stan, we were working on his hot air balloon last week. What does it mean?",
+            "entity_iso_code": "HN",
+            "category": "Cryptography",
+            "points": 25,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "UNO{FIXPROBLEMQUICKLYWITHGALVANIZEDJETS}",
+            "hint": "Search for Gravity Falls cryptograms. ",
+            "penalty": 0,
+            "links": [],
+            "attachments": [
+                {
+                    "filename": "\/data\/attachments\/here-goes-desc-0_4dc0780d4247c34d68a35a47c7eef7b6.jpg",
+                    "type": "image\/jpeg"
+                }
+            ]
+        },
+        {
+            "type": "flag",
+            "title": "Free Points!",
+            "active": true,
+            "description": "Check the hint for free points!",
+            "entity_iso_code": "US",
+            "category": "Misc",
+            "points": 10,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "UNO{7h15_15_y0Ur_f146}",
+            "hint": "UNO{7h15_15_y0Ur_f146}",
+            "penalty": 0,
+            "links": [],
+            "attachments": []
+        },
+        {
+            "type": "flag",
+            "title": "Two-Time Pad",
+            "active": true,
+            "description": "My new encryption (two-time pad, under patent review) is twice as secure as one time pads. I am so certain about the security of my new scheme that I am releasing the encrypted versions of my two most secret pictures.",
+            "entity_iso_code": "NO",
+            "category": "Cryptography",
+            "points": 100,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "UNO{dont_reuse_your_OTP_974226db}",
+            "hint": "The images were encrypted with the same key K as such: encrypted_pixels[i] = pixels[i] XOR K[i].",
+            "penalty": 0,
+            "links": [],
+            "attachments": [
+                {
+                    "filename": "\/data\/attachments\/enc1_f8bd9a91d631d5ffeb2d2d48fb84ebae.bmp",
+                    "type": "image\/bmp"
+                },
+                {
+                    "filename": "\/data\/attachments\/enc2_83d8d283a5d7bb41a96713695a6075c3.bmp",
+                    "type": "image\/bmp"
+                }
+            ]
+        },
+        {
+            "type": "flag",
+            "title": "EBG13",
+            "active": true,
+            "description": "Decrypt the ciphertext:\n\nPbjneqf qvr znal gvzrf orsber gurve qrnguf; gur inyvnag arire gnfgr bs qrngu ohg bapr. Sbe gur inyvnag, urer yvrf gur synt: nexakvosvuclcebs",
+            "entity_iso_code": "IT",
+            "category": "Cryptography",
+            "points": 25,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "UNO{arknxibfihpyprof}",
+            "hint": "Ave Caesar!",
+            "penalty": 0,
+            "links": [],
+            "attachments": []
+        },
+        {
+            "type": "flag",
+            "title": "Southern Cross",
+            "active": true,
+            "description": "Wow, what's this, Soos?\n\nIt's the Confederacy's cipher disk with a help of which southerners encrypted their messages.\n\nHow does it work?\n\nLook, Dipper. We need to encode the phrase MABLE EATS SPRINKLES. We don't need any spaces so just delete them. We get MABLEEATSSPRINKLES. Then we have too choose a key. Let it be GRAVITY. And let's go !!!\n\n<Watch the YouTube video>\n\nYou see, we've encrypted the phrase and here it is RBZTXYZJSKZBLQCEN\n\nCool!\n\nNow I'll encode a famous story and you'll try to decode it. By the way, it's much more interesting to read the whole story over, isn't it?\n\n....\n\nThat's complicated. Maybe I have to find a key at first. I'd better look for someone who is able to solve this...\n\nDon't forget to reach to the end of the text! The ending is greatly important.",
+            "entity_iso_code": "EC",
+            "category": "Cryptography",
+            "points": 50,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "UNO{bolivarcannotcarrydouble}",
+            "hint": "See if you can find a way to crack the encrypted text online. Statistical analysis is your friend.",
+            "penalty": 0,
+            "links": [
+                "https:\/\/www.youtube.com\/watch?v=Fpzrs-fcNKM"
+            ],
+            "attachments": [
+                {
+                    "filename": "\/data\/attachments\/southernCross_5ceb0457adcdfdedae5657c1d04cdc16.png",
+                    "type": "image\/png"
+                },
+                {
+                    "filename": "\/data\/attachments\/crypt_0af178de48e6db3617751d0cd490d276.txt",
+                    "type": "text\/plain"
+                }
+            ]
+        },
+        {
+            "type": "flag",
+            "title": "Gametime",
+            "active": true,
+            "description": "Guess what time it is! That's right! Gametime! Wowwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww!!!!!!!!!!!!\n\nAuthor: Brad Antoniewicz",
+            "entity_iso_code": "TM",
+            "category": "Reverse Engineering",
+            "points": 150,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "UNO{no5c30416d6cf52638460377995c6a8cf5}",
+            "hint": "",
+            "penalty": 0,
+            "links": [],
+            "attachments": [
+                {
+                    "filename": "\/data\/attachments\/gametime_97d003347fd935d29f7b8f8b4bb3ced9.exe",
+                    "type": "application\/x-msdownload"
+                }
+            ]
+        },
+        {
+            "type": "flag",
+            "title": "core1",
+            "active": true,
+            "description": "core1.bin crashed while reading a keyfile and generated a core dump core1. Can you recover the key?",
+            "entity_iso_code": "GL",
+            "category": "Forensics",
+            "points": 75,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "UNO{d495390df083ab9f}",
+            "hint": "You COULD debug it, but do you really want to?",
+            "penalty": 0,
+            "links": [],
+            "attachments": [
+                {
+                    "filename": "\/data\/attachments\/core1_b639932ddf6062ed342967448d3b70f4.bin",
+                    "type": "application\/macbinary"
+                },
+                {
+                    "filename": "\/data\/attachments\/core1_92631d2a2fd505eb5a0f3754dc881851",
+                    "type": "application\/octet-stream"
+                }
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "readasm",
+            "active": true,
+            "description": "At the end of this sequence of instructions, how many bytes separate esp and the stored return address on the program's stack? Assume that we called this function using standard 32-bit x86 calling conventions.\n\n804847c functioname:\n804847c: push ebp\n804847d: mov ebp,esp\n804847f: sub esp,60h\n8048482: mov [esp-4],0h\n804848a: mov [esp],8048580h\n\nAnswer in *decimal*\n",
+            "entity_iso_code": "CM",
+            "category": "Quiz",
+            "points": 50,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "100",
+            "hint": "You may find this reference (http:\/\/codearcana.com\/posts\/2013\/05\/21\/a-brief-introduction-to-x86-calling-conventions.html) informative.",
+            "penalty": 0,
+            "links": [],
+            "attachments": []
+        },
+        {
+            "type": "flag",
+            "title": "crackme1",
+            "active": true,
+            "description": "Can you find the key?",
+            "entity_iso_code": "AU",
+            "category": "Reverse Engineering",
+            "points": 50,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "UNO{gK46c#fT@H}",
+            "hint": "How might you disassemble a Windows executable? Also, you may want to keep an ASCII table close at hand.",
+            "penalty": 0,
+            "links": [],
+            "attachments": [
+                {
+                    "filename": "\/data\/attachments\/crackme1_fc8db00302eb2166d30e5c622842d3ea.exe",
+                    "type": "application\/x-msdownload"
+                }
+            ]
+        },
+        {
+            "type": "flag",
+            "title": "crackme2",
+            "active": true,
+            "description": "Can you crack me too?",
+            "entity_iso_code": "NG",
+            "category": "Reverse Engineering",
+            "points": 100,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "UNO{RaFr`Ayy}",
+            "hint": "You'll have to do the math.",
+            "penalty": 0,
+            "links": [],
+            "attachments": [
+                {
+                    "filename": "\/data\/attachments\/crackme2_ca2d386e8a7a4cd4861e2d1a07366c34.exe",
+                    "type": "application\/x-msdownload"
+                }
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Webserver",
+            "active": true,
+            "description": "What TCP port does the HTTP protocol commonly use?",
+            "entity_iso_code": "VE",
+            "category": "Quiz",
+            "points": 25,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "80",
+            "hint": "",
+            "penalty": 0,
+            "links": [],
+            "attachments": []
+        },
+        {
+            "type": "quiz",
+            "title": "From SQL to Shell",
+            "active": true,
+            "description": "What is a code injection technique, used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution? (2 words)",
+            "entity_iso_code": "AZ",
+            "category": "Quiz",
+            "points": 25,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "SQL Injection",
+            "hint": "",
+            "penalty": 0,
+            "links": [],
+            "attachments": []
+        },
+        {
+            "type": "quiz",
+            "title": "B64",
+            "active": true,
+            "description": "Base64 to plain text. What is the secret message? V2VsY29tZSB0byBKb2xseSBSb2dlciBJbnNlY3VyaXR5IQo=",
+            "entity_iso_code": "GN",
+            "category": "Quiz",
+            "points": 50,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "Welcome to Jolly Roger Insecurity!",
+            "hint": "man base64",
+            "penalty": 0,
+            "links": [],
+            "attachments": []
+        },
+        {
+            "type": "quiz",
+            "title": "Flag Not Found",
+            "active": true,
+            "description": "What is the HTTP return code for a page Not Found?",
+            "entity_iso_code": "RO",
+            "category": "Quiz",
+            "points": 25,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "404",
+            "hint": "Hint not found.",
+            "penalty": 0,
+            "links": [],
+            "attachments": []
+        },
+        {
+            "type": "quiz",
+            "title": "Blank the Blank",
+            "active": true,
+            "description": "A stack buffer overflow attack is also known popularly as _________ the _________ (3 words, including \"the\")",
+            "entity_iso_code": "MX",
+            "category": "Quiz",
+            "points": 25,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "Smashing the Stack",
+            "hint": "for fun and profit",
+            "penalty": 0,
+            "links": [],
+            "attachments": []
+        },
+        {
+            "type": "quiz",
+            "title": "Right back at ya...",
+            "active": true,
+            "description": "What is the process of redirecting unwanted http requests back onto the caller that made the request?",
+            "entity_iso_code": "DE",
+            "category": "Quiz",
+            "points": 25,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "deflecting",
+            "hint": "",
+            "penalty": 0,
+            "links": [],
+            "attachments": []
+        },
+        {
+            "type": "quiz",
+            "title": "hex2dec",
+            "active": true,
+            "description": "Can you convert this hexadecimal number into a decimal number? 7F71F",
+            "entity_iso_code": "ID",
+            "category": "Quiz",
+            "points": 50,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "522015",
+            "hint": "",
+            "penalty": 0,
+            "links": [],
+            "attachments": []
+        },
+        {
+            "type": "quiz",
+            "title": "I don't know you!",
+            "active": true,
+            "description": "________ spam refers to http requests (typically made by bots) that impersonate referral links.",
+            "entity_iso_code": "GB",
+            "category": "Quiz",
+            "points": 25,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "referrer",
+            "hint": "",
+            "penalty": 0,
+            "links": [],
+            "attachments": []
+        },
+        {
+            "type": "quiz",
+            "title": "Boo!",
+            "active": true,
+            "description": "_____ spam is generated by bots that do not send http requests but do send fake event data directly to sites after crawling them",
+            "entity_iso_code": "AO",
+            "category": "Quiz",
+            "points": 25,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "ghost",
+            "hint": "",
+            "penalty": 0,
+            "links": [],
+            "attachments": []
+        },
+        {
+            "type": "quiz",
+            "title": "Fingers crossed...",
+            "active": true,
+            "description": "___ attacks occur when malicious code is injected into a vulnerability identified on a trusted site.",
+            "entity_iso_code": "NZ",
+            "category": "Quiz",
+            "points": 25,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "XSS",
+            "hint": "",
+            "penalty": 0,
+            "links": [],
+            "attachments": []
+        },
+        {
+            "type": "quiz",
+            "title": "That's no way to treat guest...",
+            "active": true,
+            "description": "A ______ XSS attack occurs when an unsafe JavaScript call generated by malicious, user-supplied code is used to update the Document Object Model (DOM).",
+            "entity_iso_code": "MR",
+            "category": "Quiz",
+            "points": 25,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "client",
+            "hint": "",
+            "penalty": 0,
+            "links": [],
+            "attachments": []
+        },
+        {
+            "type": "quiz",
+            "title": "Not exactly what you've been waiting for...",
+            "active": true,
+            "description": "A ______ XSS attack occurs when an HTML response contains malicious, user-supplied code either returned from the request itself or retrieved from a stored location.",
+            "entity_iso_code": "RU",
+            "category": "Quiz",
+            "points": 25,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "server",
+            "hint": "",
+            "penalty": 0,
+            "links": [],
+            "attachments": []
+        },
+        {
+            "type": "flag",
+            "title": "crashme1",
+            "active": true,
+            "description": "A vulnerable service is running at ctfvm.cs.uno.edu:55556. If you can crash it, it will yield the flag. Source is available in crashme1.c.",
+            "entity_iso_code": "CA",
+            "category": "Binary Exploitation",
+            "points": 50,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "UNO{OH_NO_0V3RF10W}",
+            "hint": "What's a segmentation fault, and how might you cause one? Notice anything odd about the call to read?",
+            "penalty": 0,
+            "links": [],
+            "attachments": [
+                {
+                    "filename": "\/data\/attachments\/crashme1_18934a144dc96f4fd9cb0b866e3e2f54.c",
+                    "type": "application\/octet-stream"
+                }
+            ]
+        },
+        {
+            "type": "flag",
+            "title": "warmup",
+            "active": true,
+            "description": "So you want to be a pwn-er huh? Well let's throw you an easy one ;)\n\nThe attached executable is running as a service at ctfvm.cs.uno.edu:55557.",
+            "entity_iso_code": "AR",
+            "category": "Binary Exploitation",
+            "points": 100,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "UNO{ea5y_fl4G5}",
+            "hint": "",
+            "penalty": 0,
+            "links": [],
+            "attachments": [
+                {
+                    "filename": "\/data\/attachments\/warmup_ffe2ac4bd2d21041420d1acc6c009daf",
+                    "type": "application\/octet-stream"
+                }
+            ]
+        },
+        {
+            "type": "flag",
+            "title": "Concatenation",
+            "active": true,
+            "description": "I've lost the flag. Can you find it for me?",
+            "entity_iso_code": "KG",
+            "category": "Forensics",
+            "points": 75,
+            "bonus": 0,
+            "bonus_dec": 0,
+            "bonus_fix": 0,
+            "flag": "UNO{Cyb3r_phy5ic5}",
+            "hint": "Having a basic understanding of the JPEG file format might be helpful.",
+            "penalty": 0,
+            "links": [],
+            "attachments": [
+                {
+                    "filename": "\/data\/attachments\/concatenation_175797665a2eebca5e135c8f80c1220d.jpg",
+                    "type": "image\/jpeg"
+                }
+            ]
+        }
+    ]
+}
